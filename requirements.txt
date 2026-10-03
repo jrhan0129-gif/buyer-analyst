@@ -1,0 +1,5 @@
+# Core collection, risk-analysis and regression-test dependencies.
+yfinance
+pandas
+requests
+pytest

@@ -1,0 +1,46 @@
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+.claude/settings*.json
+
+# Environments, dependencies, caches
+.venv/
+venv/
+analyst_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+node_modules/
+.DS_Store
+
+# Private inputs and runtime outputs are deliberately absent from this release
+reports/
+data_extract/
+daily_logs/
+knowledge_base/
+verdicts/
+probability_predictions/
+watchlist.json
+output/
+outputs/
+downloads/
+filings/
+external/
+中金指标/
+示例-招投标文件/
+*.log
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.csv
+*.sqlite*
+*.db
+*.bak*
